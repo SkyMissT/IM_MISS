@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--标题栏图标颜色-->
+    <color name="topColor">#e6e6e6</color>
+    <!--标题栏图标颜色-->
+    <color name="topIconColor">#8a8a8a</color>
+    <!--底部功能栏图标颜色-->
+    <color name="bottomColor">#707070</color>
+    <!--底部功能栏图标颜色-->
+    <color name="bottomColorSelected">#1296db</color>
+    <!--列表中分线颜色-->
+    <color name="listLine">#707070</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#e6e6e6</color>
+
+    <color name="green">#336633</color>
+
+    <color name="blue">#3399CC</color>
+    <color name="pink">#FF9999</color>
+
+    <color name="color1">#FF9999</color>
+    <color name="color2">#FF9999</color>
+    <color name="color14">#FF9999</color>
+
+
+</resources>

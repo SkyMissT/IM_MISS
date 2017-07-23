@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="meetyou" ></dbname>
+
+    <version value="3" ></version>
+
+    <list>
+        <mapping class="com.miss.meet.model.bean.Person"/>
+        <mapping class="com.miss.meet.model.bean.ChartMessage"/>
+        <mapping class="com.miss.meet.model.bean.Friend"/>
+        <mapping class="com.miss.meet.model.bean.FriendsGroup"/>
+        <mapping class="com.miss.meet.model.bean.UserLabel"/>
+        <mapping class="com.miss.meet.model.bean.UserRemark"/>
+        <mapping class="com.miss.meet.model.bean.MessageItem"/>
+    </list>
+</litepal>

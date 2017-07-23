@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:background="@color/topColor"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back"/>
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分组选择："
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_marginTop="30dp"
+            android:id="@+id/btn1"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/radiobutton_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="我的好友"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/btn2"
+            android:layout_marginTop="50dp"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radiobutton_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="家人"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/btn3"
+            android:layout_marginTop="50dp"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radiobutton_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="同学"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/btn4"
+            android:layout_marginTop="50dp"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radiobutton_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="同事"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/btn5"
+            android:layout_marginTop="50dp"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radiobutton_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="陌生人"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="14sp" />
+
+    </RadioGroup>
+
+</LinearLayout>
