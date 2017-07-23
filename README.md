@@ -5,6 +5,7 @@
 因为是毕设项目，老师主要看效果，成绩更看老师心情，所以性能以及功能的完整性、性能并没有做太多优化，但简单的沟通肯定是够了的。顺便把实习期间语音识别模块也
 加了进去，也是唯一用的API吧。
 >功能模块
+* 引导页
 * 登陆注册
 * 好友推荐
 * 好友列表
@@ -12,5 +13,7 @@
 * 设置
 
 >登陆注册
-
+###登陆、注册界面，有动画效果~~
+![register](https://github.com/SkyMissT/IM_MISS/tree/master/picture/register.png) 
+![login](https://github.com/SkyMissT/IM_MISS/tree/master/picture/login.png) 
 
